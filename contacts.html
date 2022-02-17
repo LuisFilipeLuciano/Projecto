@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <html lang="pt">
+      <head>
+          <meta charset="utf-8">
+          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0," />  
+          <link rel="stylesheet" href="css/css.css">
+          <title>Delicious Meals</title>
+          <link rel="shortcut icon" href="img/icon.png"/>
+     </head>
+<body class="white">
+  <header>
+    <div class="cursor cursor--small black"></div>
+      <canvas class="cursor cursor--canvas" resize></canvas>
+    <div class="container">
+      <div class="navbar">
+        <img src="img/logo_black.svg" class="logo">
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html" class="text-black">Home</a></li>
+            <li><a href="menu.html" class="text-black">Menu</a></li>
+            <li><a href="about.html" class="text-black">About Us</a></li>
+            <li><a href="contacts.html" class="check">Contatos</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <div class="search">
+             <input type="text" class="searchTerm" placeholder="What are you looking for?">
+             <button type="submit" class="searchButton">
+               <i class="fa fa-search"></i>
+            </button>
+          </div>
+       </div>
+       <div class="menu-icon">
+       <a href="*"></a><i class="fa fa-shopping-cart icons" aria-hidden="true"></i></a>
+       <span class="badge">0</span>
+     </div>
+      </div>
+    </div>
+  </header>
+  <main>
+      <div class="contact">
+           <h1>Let’s make something amazing.</h1>
+      </div>
+      <span class="cont_c">Contacts</span>
+        <div class="container_form">
+          <h2>Get In Touch.</h2>
+            <form id="" method="post" action="">
+                  <input id="form_name" type="text" name="name" placeholder="Name"required="required">
+                  <input id="form_email" type="email" name="email" placeholder="Email" required="required">
+                  <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
+              </form>
+              <button type="submit" class="btn-curve"><span>Send Message</span></button>
+        </div>
+        <div class="container_adress">
+          <h2>Visit us.</h2>
+          <h5>Contact Info.</h5>
+          <h3 class="custom-font">fool@gmail.com</h3>
+          <h6>+351 213863717</h5>
+            <div class="margin"></div>
+              <h3 class="custom-font">Adress</h3>
+              <h6>Rua Azedo de Gneco,<br>Lisboa, Portugal</h6>
+                <div class="margin"></div>
+                  <h3 class="custom-font">Social Media</h3>
+                    <a href="#0"><i class="fa fa-twitter social-contact"></i></a>
+                    <a href="#0"><i class="fa fa-behance social-contact"></i></a>
+        </div> 
+            <div class="map" id="ieatmaps"></div>
+              <footer class="footer-half">
+                <h3>© 2022, Delicious Food</h3>
+              </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap">
+</script>
+
+</body>
+</html>
